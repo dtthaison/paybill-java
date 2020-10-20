@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BaseRepository implements RepositoryInterface {
-    private static String dbPath = "/Users/doanson/momo_paybill_db.txt";
+    private static String dbPath = "./momo_paybill_db.txt";
 
     public void save(ModelInterface record) throws Exception {
         boolean isPersisted = record.isPersisted();

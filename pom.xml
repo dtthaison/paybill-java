@@ -37,7 +37,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.sonatype.haven.HavenCli</mainClass>
+                                    <mainClass>vn.momo.paybill.Application</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

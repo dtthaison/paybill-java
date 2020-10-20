@@ -75,7 +75,8 @@ public class Application {
                     System.out.println("5. BILL_PAY <billIds:billId1,billId2,...>");
             }
         } catch (Exception e){
-            System.out.println("Exception occured: " + e.toString());
+            System.out.println("Error: " + e.toString());
+//            e.printStackTrace();
         }
     }
 }

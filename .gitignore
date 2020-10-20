@@ -142,3 +142,5 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
+dependency-reduced-pom.xml
+momo_paybill_db.txt
